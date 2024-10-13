@@ -1,0 +1,8 @@
+MainGUI a
+{
+transition: 0.5s;
+}
+MainGUI:hover a
+{
+    color: white;
+}
