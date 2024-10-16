@@ -5,33 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="MinesIconStyle.css">
+    <link rel="stylesheet" href="MinesIconStyle.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="scrollbar.css">
     <script src="loader.js" defer></script>
+    <script src="index.js"></script>
+
     <title>BloxCurse</title>
 </head>
 <body style="background-color: #151634;">
-
-    <audio id="ash" autoplay src="advertising-logo-199582.mp3"></audio>
-
-    <div class="MainPage" style="border-radius: 15px; margin-top: 50px; margin-left: 50px; background-color: #1b1a3b; position: fixed; width: 100%; height: 100%; top: 0px; left: 0px;">
+    <div class="MainPage" style="border-radius: 15px; margin-top: 50px; margin-left: 75px; background-color: #1b1a3b; position: fixed; width: 100%; height: 100%; top: 0px; left: 0px;">
 
     </div>
-
-<div class="MainGUI" style="background-color: #151634; position: fixed; width: 50px; height: 100%; top: 0px; left: 0px;">
+    
+<!--SideBarGui(Mines,towers,etc)-->
+<div class="MainGUI" style="background-color: #151634; position: fixed; width: 75px; height: 100%; top: 0px; left: 0px; overflow-y: scroll;">
+    <div id="MainGUIMine" style="position: fixed; top: 195px; left: 12.5px; width: 50px; height: 50px;">       
 <a href="mines.html">
-    <img src="Archives/Mines-modified.png" width=25px style="opacity: 50%; position: fixed; top: 200px; left: 15px;" alt="Mines">
-<p id="MineTEXT" style="position: fixed; top: 210px; left: 5px; color: whitesmoke; opacity: 50%;" aria-hidden="true">Mines</p>
+    <img id="MineIMG" src="Archives/Mines.png" width=25px style="position: fixed; top: 200px; left: 25px;" alt="Mines">
+<p id="MineTEXT" style="width: 75px; position: fixed; top: 210px; left: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif;" aria-hidden="true">Mines</p>
 </a>
-
 </div>
+<div id="MainGUITowers" style="position: fixed; top: 250px; left: 12.5px; width: 50px; height: 50px;">
+    <a href="towers.html">
+        <img id="TowersIMG" src="Archives/towers.png" width=25px style="position: fixed; top: 255px; left: 25px;" alt="Towers">
+    <p id="TowersTEXT" style="width: 75px; position: fixed; top: 265px; left: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; " aria-hidden="true">Towers</p>
+    </a>
+    </div>
+<div id="MainGUICrash" style="position: fixed; top: 305px; left: 12.5px; width: 50px; height: 50px;">
+        <a href="crash.html">
+            <img id="CrashIMG" src="Archives/Crash.png" width=25px style="position: fixed; top: 310px; left: 25px;" alt="Crash">
+        <p id="CrashTEXT" style="width: 75px; position: fixed; top: 320px; left: 0px; font-family: Arial, Helvetica, sans-serif; text-align: center;" aria-hidden="true">Crash</p>
+        </a>
+</div>
+<div id="MainGUIDice" style="position: fixed; top: 360px; left: 12.5px; width: 50px; height: 50px;">
+    <a href="Dice.html">
+        <img id="DiceIMG" src="Archives/Dice.png" width=25px style="position: fixed; top: 365px; left: 25px;" alt="Dice">
+    <p id="DiceTEXT" style="width: 75px; position: fixed; top: 375px; left: 0px; font-family: Arial, Helvetica, sans-serif; text-align: center;" aria-hidden="true">Dice</p>
+    </a>
+</div>
+</div>
+<!--end of SideBarGUI-->
+
 <div class="UPGUI" style="background-color: #151634; position: fixed; width: 100%; height: 50px; top: 0px; left: 0px;">
 
 </div>
+<img src="Archives/BloxUP-13-10-2024.webp" style="position: fixed; width: 125px; top: -5px; left:0px;">
 
-
-
-    <div class="loader">
-        <img width=100% height=100% style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100vh;" src="loading.webp">
+    <div class="loader" style="background-color: #151634;">
+        <img width=50% style="position: absolute; margin-left: auto; margin-right: auto; top: 25%;" src="Archives/BloxUP-13-10-2024.webp">
         
         </div>
 

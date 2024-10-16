@@ -1,8 +1,94 @@
-MainGUI a
-{
-transition: 0.5s;
+#MineTEXT{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
 }
-MainGUI:hover a
-{
-    color: white;
+#MineIMG{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+
+#MainGUIMine:hover{
+    #MineIMG{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+    #MineTEXT{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+}
+#TowersTEXT{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+#TowersIMG{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+
+#MainGUITowers:hover{
+    #TowersIMG{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+    #TowersTEXT{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+}
+
+#CrashTEXT{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+#CrashIMG{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+
+#MainGUICrash:hover{
+    #CrashIMG{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+    #CrashTEXT{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+}
+
+#DiceTEXT{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+#DiceIMG{
+    color: white; 
+    opacity: 25%;
+    transition: 0.2s;
+}
+
+#MainGUIDice:hover{
+    #DiceIMG{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
+    #DiceTEXT{
+        color: white;
+        opacity: 100%;
+        transition: 0.2s ease;
+    }
 }
